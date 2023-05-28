@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 15 20:31:52 2018
-
-@author: Manvenddra
-"""
 
 lang={"Bulgarian":"bg",
 "Bengali":"bn",

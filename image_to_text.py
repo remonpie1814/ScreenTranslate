@@ -1,11 +1,10 @@
 import numpy as np
-from pytesseract import Output
 import pytesseract
 import cv2
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = 'D:\\ProgramFile\\Tesseract\\tesseract.exe'
-tessdata_dir_config = '--tessdata-dir "D:\\ProgramFile\\Tesseract\\tessdata"'
+pytesseract.pytesseract.tesseract_cmd = '<Add here>' # Path to tesseract.exe
+tessdata_dir_config = '--tessdata-dir "<Add here>"' # Path to tessdata directory
 
 if __name__ == '__main__':
 

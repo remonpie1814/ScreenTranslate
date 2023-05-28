@@ -24,7 +24,6 @@ def open_select_area_window(*args):
             coord.append((event.x,event.y))
         
         if len(coord)>2:
-            coord[0],coord[1]=coord[1],coord[2]
             del coord[2:]
         
         if len(coord)==2:
@@ -52,6 +51,7 @@ def open_select_area_window(*args):
     new_win.resizable(False, False)
     canvas = Canvas(new_win, width=w, height=h-100)
     canvas.pack()
+    coord = []
 
     btn = ttk.Button(new_win, text="완료", command=select_complete)
     btn.pack()
